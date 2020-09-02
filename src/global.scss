@@ -24,3 +24,22 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.text-bold{
+    font-weight: bold;
+}
+
+.line-bottom{
+    border-bottom: 1px solid #808080;
+}
+
+.ion-button-light {
+    --background: #fff;
+    --color: var(--ion-color-primary) !important;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+ion-input, ion-datetime, ion-select{
+    color: #808080 !important;
+}
